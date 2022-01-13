@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import netflixLogo from './logo/netflix.png';
 import "./Nav.css";
 
 function Nav() {
@@ -25,7 +26,7 @@ function Nav() {
         <img
           onClick={() => navigate('/')}
           className="nav__logo"
-          src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
+          src={netflixLogo}
           alt="Netflix Logo"
         />
         <img
